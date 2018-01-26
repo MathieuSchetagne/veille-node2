@@ -1,0 +1,6 @@
+git remote add origin https://github.com/MathieuSchetagne/veille-node.git
+
+git push -u origin master
+
+git add <nom du fichier> // indexer 1 fichier
+git add . // indexer tout les fichier
