@@ -22,7 +22,7 @@ h3 {
 }
 .logo {
   margin: 0;
-  font-size: 1.45em;
+  font-size: 3em;
 }
 .logo a {
   padding: 10px 15px;
@@ -61,6 +61,7 @@ button {
   border-radius: 5px;
 }
 .header {
+  display: flex;
   margin-top: 1em;
   padding-top: .5em;
   padding-bottom: .5em;
@@ -90,7 +91,7 @@ button {
 }
 @media (min-width: 1025px) {
   .header {
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
   }
 }
