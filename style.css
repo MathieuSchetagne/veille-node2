@@ -71,7 +71,8 @@ h4 button {
   font-size: .99em;
 }
 .main-nav a:hover {
-  color: #718daa;
+  letter-spacing: 2px;
+  transition: 0.5s;
 }
 .main-nav i {
   color: #f4f4f4;
