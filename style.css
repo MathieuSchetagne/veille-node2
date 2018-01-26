@@ -134,6 +134,10 @@ footer h4 {
   height: 50px;
   display: flex;
 }
+.mslogo:hover {
+  height: 75px;
+  transition: 1s;
+}
 /* ================================= 
   Media Queries
 ==================================== */
