@@ -1,6 +1,10 @@
 @gris : #34495e;
 @noirShadow : rgba(0,0,0,0.75);
 @blanc :#f4f4f4;
+@bleuNavy : #02315B;
+@bleuNavySearch : rgb(2, 38, 70);
+@noir : #000;
+@transparent : rgba(0, 0, 0, 0);
 
 * {
   box-sizing:border-box;
@@ -16,11 +20,11 @@ ul {
   padding:0;
   list-style:none;
 }
-h2, h3 {
-  color:@gris;
+h2 {
+  color:@noir;
 }
-a {
-  color:@gris;
+a,h3 {
+  color:@blanc;
   text-decoration:none;
 }
 .logo {
@@ -35,29 +39,43 @@ a {
 }
 .main-nav {
   margin-top:5px;
-  a {
+  a,.recherche {
     padding:10px 15px;
     text-transform:uppercase;
     text-align:center;
     display:block;
-    color:@gris;
+    color:@blanc;
     font-size:.99em;
   }
   a:hover {
     color:#718daa;
   }
+  i{
+      color: @blanc;
+  }
 }
+    button{
+        background-color: @transparent;
+        border: 0px solid @transparent;
+    }
+    .recherche input {
+        background-color: @bleuNavySearch;
+        height:25px;
+        padding-left: 10px;
+        border: 0px;
+        color: @blanc;
+        border-radius: 5px;
+    }
 .header {
+ 
+  margin-top: 1em;
   padding-top:.5em;
   padding-bottom:.5em;
-  border:1px solid #a2a2a2;
-  background-color:@blanc;
+  background-color:@bleuNavy;
+  color: @blanc;
   -webkit-box-shadow:0px 0px 14px 0px@noirShadow;
   -moz-box-shadow:0px 0px 14px 0px@noirShadow;
   box-shadow:0px 0px 14px 0px @noirShadow;
-  -webkit-border-radius:5px;
-  -moz-border-radius:5px;
-  border-radius:5px;
 }
 
 /* ================================= 
