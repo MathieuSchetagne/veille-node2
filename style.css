@@ -35,6 +35,15 @@ h4 button {
   align-items: center;
   justify-content: center;
 }
+.content section {
+  display: flex;
+  flex-direction: row;
+}
+.content div {
+  width: 400px;
+  height: 600px;
+  border: 2px solid #000000;
+}
 .logo {
   margin: 0;
   font-size: 3em;
