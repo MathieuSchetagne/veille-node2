@@ -20,9 +20,7 @@ ul {
   padding:0;
   list-style:none;
 }
-h1{
-   
-}
+
 h2 {
   color:@noir;
 }
@@ -30,6 +28,15 @@ a,h3 {
   color:@blanc;
   text-decoration:none;
 }
+h4{
+    margin-left: auto;
+    padding-right: 10px;
+}
+h4 button{
+    color: @blanc;
+    font-size: 22px;
+}
+
 .logo {
   margin:0;
   font-size:3em;
@@ -72,6 +79,9 @@ a,h3 {
     }
 .header {
  display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-direction: column;
   margin-top: 1em;
   padding-top:.5em;
   padding-bottom:.5em;
@@ -97,7 +107,7 @@ a,h3 {
     	.header{
 		width: 80%;
 		margin: 0 auto;
-		max-width: 1150px;
+        max-width: 1150px;
 	}
 	}
 
