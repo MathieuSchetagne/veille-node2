@@ -4,3 +4,6 @@ git push -u origin master
 
 git add <nom du fichier> // indexer 1 fichier
 git add . // indexer tout les fichier
+
+git status
+git status -s
