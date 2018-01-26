@@ -38,8 +38,9 @@ h4 button {
 .content section {
   width: 100%;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-around;
+  align-items: center;
 }
 .content div {
   width: 400px;
@@ -148,6 +149,9 @@ footer h4 {
     width: 80%;
     margin: 0 auto;
     max-width: 1150px;
+  }
+  .content section {
+    flex-direction: row;
   }
 }
 @media (min-width: 1025px) {
