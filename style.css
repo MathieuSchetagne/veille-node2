@@ -50,6 +50,7 @@ div {
   height: 300px;
   border: 2px solid #000;
   text-align: center;
+  overflow-x: auto;
 }
 .logo {
   margin: 0;
