@@ -29,6 +29,9 @@ h4 button {
   color: #f4f4f4;
   font-size: 22px;
 }
+div {
+  margin: 10px;
+}
 .content {
   display: flex;
   flex-direction: column;
@@ -141,6 +144,9 @@ footer h4 {
 .mslogo:hover {
   height: 75px;
   transition: 1s;
+}
+.chat {
+  width: 80% !important ;
 }
 /* ================================= 
   Media Queries
