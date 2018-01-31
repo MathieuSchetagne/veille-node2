@@ -14,7 +14,7 @@ ul {
   list-style: none;
 }
 h2 {
-  color: #000000;
+  color: #000;
 }
 a,
 h3 {
@@ -45,7 +45,7 @@ h4 button {
 .content div {
   width: 400px;
   height: 300px;
-  border: 2px solid #000000;
+  border: 2px solid #000;
   text-align: center;
 }
 .logo {
@@ -97,7 +97,7 @@ button {
   margin-top: 1em;
   padding-top: .5em;
   padding-bottom: .5em;
-  background-color: #02315b;
+  background-color: #72e057;
   color: #f4f4f4;
   -webkit-box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.75);
@@ -110,7 +110,7 @@ footer {
   flex-direction: column;
 }
 footer button {
-  background-color: #02315b;
+  background-color: #72e057;
   border-radius: 60px;
   box-shadow: 0px 0px 2px #888;
   padding: 0.5em 0.6em;
@@ -126,7 +126,7 @@ footer h4 {
   justify-content: center;
 }
 .footerLow {
-  background-color: #02315b;
+  background-color: #72e057;
   color: #f4f4f4;
   font-size: 2em;
   height: 70px;
