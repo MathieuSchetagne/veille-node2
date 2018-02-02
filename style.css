@@ -142,6 +142,7 @@ footer h4 {
 .mslogo {
   height: 50px;
   display: flex;
+  transition: 1s;
 }
 .mslogo:hover {
   height: 75px;
